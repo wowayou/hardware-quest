@@ -1,0 +1,9 @@
+{
+  "id": "change-me",
+  "chapter": "mcu",
+  "title": "关卡名",
+  "concept": "这一关教的概念",
+  "card": "过关后收进图鉴的一两句话。",
+  "lab": { "tool": "wokwi", "files": ["sketch.ino", "diagram.json"] },
+  "answer": { "type": "text", "accept": ["CHANGEME"], "format": "8 个大写字母" }
+}
