@@ -1,0 +1,30 @@
+{
+  "settleMs": 1500,
+  "steps": [
+    {
+      "wait": 500
+    },
+    {
+      "press": "bell",
+      "times": 3,
+      "holdMs": 200,
+      "gapMs": 600
+    }
+  ],
+  "answer": {
+    "serial": "口令：7294",
+    "timeoutMs": 8000
+  },
+  "starterAlso": [
+    {
+      "serial": "自检失败",
+      "timeoutMs": 3000
+    }
+  ],
+  "solutionAlso": [
+    {
+      "serial": "自检通过",
+      "timeoutMs": 1000
+    }
+  ]
+}

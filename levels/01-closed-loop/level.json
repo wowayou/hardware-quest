@@ -1,0 +1,9 @@
+{
+  "id": "closed-loop",
+  "chapter": "basics",
+  "title": "不亮的台灯",
+  "concept": "闭合回路",
+  "card": "电流只在闭合的回路里流动：从电源正极出发，经过用电器，回到负极。哪里断了，整条路都不通。",
+  "lab": { "tool": "falstad", "files": ["circuit.txt"] },
+  "answer": { "type": "number", "value": 14.45, "tolerance": 0.5, "unit": "mA" }
+}

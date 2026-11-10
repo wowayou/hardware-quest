@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "author": "hardware-quest",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": -160,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "board-ssd1306",
+      "id": "oled",
+      "top": 100,
+      "left": -20,
+      "attrs": {}
+    },
+    {
+      "type": "board-bmp180",
+      "id": "bmp",
+      "top": 100,
+      "left": 100,
+      "attrs": {},
+      "rotate": 270
+    },
+    {
+      "type": "wokwi-ds1307",
+      "id": "rtc",
+      "top": 100,
+      "left": 190,
+      "attrs": {},
+      "rotate": 90
+    }
+  ],
+  "connections": [
+    [
+      "uno:A4",
+      "oled:SDA",
+      "blue",
+      [
+        "v28.5",
+        "h-199.1"
+      ]
+    ],
+    [
+      "uno:A5",
+      "oled:SCL",
+      "yellow",
+      [
+        "v40.5",
+        "h-218.4"
+      ]
+    ],
+    [
+      "uno:A4",
+      "bmp:SDA",
+      "blue",
+      [
+        "v28.5",
+        "h-102.5"
+      ]
+    ],
+    [
+      "uno:A5",
+      "bmp:SCL",
+      "yellow",
+      [
+        "v40.5",
+        "h-121.6"
+      ]
+    ],
+    [
+      "uno:A4",
+      "rtc:SDA",
+      "blue",
+      [
+        "v28.5",
+        "h0.2"
+      ]
+    ],
+    [
+      "uno:A5",
+      "rtc:SCL",
+      "yellow",
+      [
+        "v40.5",
+        "h-18.8"
+      ]
+    ]
+  ],
+  "serialMonitor": {
+    "display": "always",
+    "newline": "lf"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "author": "hardware-quest",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "bell",
+      "top": -100,
+      "left": 250,
+      "attrs": {
+        "color": "yellow",
+        "label": "门铃",
+        "bounce": "0"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "bell:2.l",
+      "uno:2",
+      "green",
+      [
+        "h-13.5"
+      ]
+    ],
+    [
+      "bell:1.l",
+      "uno:GND.1",
+      "black",
+      [
+        "h-134.5"
+      ]
+    ]
+  ],
+  "serialMonitor": {
+    "display": "always",
+    "newline": "lf"
+  }
+}

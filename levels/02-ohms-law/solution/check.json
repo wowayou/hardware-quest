@@ -1,0 +1,10 @@
+{
+  "reads": {
+    "r": { "element": "ResistorElm", "what": "resistance" },
+    "i": { "element": "LEDElm", "what": "current", "scale": 1000 }
+  },
+  "answer": "r",
+  "start": [{ "read": "i", "min": 100 }],
+  "solution": [{ "read": "i", "max": 20 }],
+  "also": [{ "file": "solution/too-small.txt", "assert": [{ "read": "i", "min": 25 }] }]
+}

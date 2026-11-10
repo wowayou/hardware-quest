@@ -1,0 +1,24 @@
+{
+  "settleMs": 500,
+  "steps": [
+    {
+      "wait": 4000
+    }
+  ],
+  "answer": {
+    "serial": "口令：8372",
+    "timeoutMs": 8000
+  },
+  "starterAlso": [
+    {
+      "serial": "电压=0\\.00V",
+      "timeoutMs": 3000
+    }
+  ],
+  "solutionAlso": [
+    {
+      "serial": "电压=3\\.30V",
+      "timeoutMs": 1000
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "blink-code",
+  "chapter": "mcu",
+  "title": "慢半拍的灯",
+  "concept": "延时",
+  "card": "delay 的单位是毫秒。",
+  "lab": { "tool": "wokwi", "files": ["sketch.ino", "diagram.json"] },
+  "answer": { "type": "text", "accept": ["CHIP", "芯片"], "format": "4 个大写字母" }
+}

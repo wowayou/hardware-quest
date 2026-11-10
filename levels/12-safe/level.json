@@ -1,0 +1,21 @@
+{
+  "id": "safe",
+  "chapter": "mcu",
+  "title": "师傅的保险箱",
+  "concept": "综合：上拉、消抖与 ADC",
+  "card": "一台设备里往往同时有好几个小毛病：输入要上拉，按键要消抖，模拟量要用浮点换算。一个一个查，别指望一次看出全部。",
+  "lab": {
+    "tool": "wokwi",
+    "files": [
+      "sketch.ino",
+      "diagram.json"
+    ]
+  },
+  "answer": {
+    "type": "text",
+    "accept": [
+      "MASTER"
+    ],
+    "format": "6 个大写字母"
+  }
+}

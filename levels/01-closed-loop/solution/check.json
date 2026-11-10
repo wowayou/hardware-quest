@@ -1,0 +1,6 @@
+{
+  "reads": { "i": { "element": "LEDElm", "what": "current", "scale": 1000 } },
+  "answer": "i",
+  "start": [{ "read": "i", "max": 0.001 }],
+  "solution": [{ "read": "i", "min": 10, "max": 20 }]
+}

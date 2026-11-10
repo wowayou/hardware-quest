@@ -1,0 +1,9 @@
+{
+  "id": "voltage-divider",
+  "chapter": "basics",
+  "title": "给传感器降压",
+  "concept": "串联分压",
+  "card": "两个电阻串联，中点电压 Vout = Vin × R2 / (R1 + R2)。想要多高的电压，就挑多大的 R2。",
+  "lab": { "tool": "falstad", "files": ["circuit.txt"] },
+  "answer": { "type": "number", "value": 10, "tolerance": 0.2, "unit": "kΩ" }
+}

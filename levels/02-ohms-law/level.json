@@ -1,0 +1,9 @@
+{
+  "id": "ohms-law",
+  "chapter": "basics",
+  "title": "烧过一次的指示灯",
+  "concept": "欧姆定律与限流电阻",
+  "card": "电流 I = (电源电压 − 灯的压降) / 电阻。LED 必须串联限流电阻，把电流压在它能承受的范围内。",
+  "lab": { "tool": "falstad", "files": ["circuit.txt"] },
+  "answer": { "type": "number", "value": 220, "tolerance": 0, "unit": "Ω" }
+}

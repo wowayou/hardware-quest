@@ -1,0 +1,24 @@
+{
+  "id": "i2c-scan",
+  "chapter": "mcu",
+  "title": "两根线上的三位住户",
+  "concept": "I2C 总线与设备地址",
+  "card": "I2C 总线只用两根线：SDA 传数据，SCL 传时钟。每个设备有一个 7 位地址，主机先喊地址，对得上的设备应答。",
+  "lab": {
+    "tool": "wokwi",
+    "files": [
+      "sketch.ino",
+      "diagram.json"
+    ]
+  },
+  "answer": {
+    "type": "text",
+    "accept": [
+      "3C6877",
+      "0x3C0x680x77",
+      "3C,68,77",
+      "0x3C,0x68,0x77"
+    ],
+    "format": "三个地址从小到大连写，不带 0x，共 6 位"
+  }
+}

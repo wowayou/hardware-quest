@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "author": "hardware-quest",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -60.65,
+      "left": 178.45,
+      "attrs": {
+        "value": "220"
+      },
+      "rotate": 270
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -150,
+      "left": 183,
+      "attrs": {
+        "color": "yellow"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "uno:5",
+      "r1:1",
+      "green",
+      []
+    ],
+    [
+      "r1:2",
+      "led1:A",
+      "green",
+      []
+    ],
+    [
+      "led1:C",
+      "uno:GND.1",
+      "black",
+      [
+        "v12",
+        "h-82.5"
+      ]
+    ],
+    [
+      "uno:5",
+      "uno:7",
+      "purple",
+      [
+        "v-19",
+        "*",
+        "v-19"
+      ]
+    ]
+  ],
+  "serialMonitor": {
+    "display": "always",
+    "newline": "lf"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "settleMs": 1500,
+  "steps": [
+    {
+      "wait": 2500
+    },
+    {
+      "press": "btn",
+      "times": 3,
+      "holdMs": 150,
+      "gapMs": 700
+    }
+  ],
+  "answer": {
+    "serial": "口令：MASTER",
+    "timeoutMs": 9000
+  },
+  "starterAlso": [
+    {
+      "serial": "按钮=按下",
+      "timeoutMs": 3000
+    }
+  ]
+}

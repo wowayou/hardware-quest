@@ -1,0 +1,21 @@
+{
+  "id": "adc",
+  "chapter": "mcu",
+  "title": "旋钮保险箱",
+  "concept": "ADC 模数转换",
+  "card": "ADC（模数转换器）把 0–5V 的电压量成 0–1023 的整数。电压 = 读数 × 5 / 1023，计算时要用浮点数，整数除法会把小数部分丢掉。",
+  "lab": {
+    "tool": "wokwi",
+    "files": [
+      "sketch.ino",
+      "diagram.json"
+    ]
+  },
+  "answer": {
+    "type": "text",
+    "accept": [
+      "8372"
+    ],
+    "format": "4 位数字"
+  }
+}

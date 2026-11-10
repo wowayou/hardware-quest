@@ -1,0 +1,21 @@
+{
+  "id": "binary-ascii",
+  "chapter": "mcu",
+  "title": "八盏灯的电报",
+  "concept": "位、字节、二进制与 ASCII",
+  "card": "一个字节是 8 位，每位只有 0 和 1，写成十六进制只要两个字符。ASCII 码规定了字符对应的数字：大写 A 是 0x41，B 是 0x42，依次加一。",
+  "lab": {
+    "tool": "wokwi",
+    "files": [
+      "sketch.ino",
+      "diagram.json"
+    ]
+  },
+  "answer": {
+    "type": "text",
+    "accept": [
+      "FUSE"
+    ],
+    "format": "4 个大写字母"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "gpio-blink",
+  "chapter": "mcu",
+  "title": "会眨眼的暗号",
+  "concept": "GPIO 数字输出与 LED 极性",
+  "card": "GPIO（通用输入输出）引脚可以被代码设成输出，输出 HIGH 是 5V、LOW 是 0V。LED 有正负极，阳极要朝向高电位、阴极朝向地，接反了不亮。",
+  "lab": { "tool": "wokwi", "files": ["sketch.ino", "diagram.json"] },
+  "answer": { "type": "text", "accept": ["3142"], "format": "4 位数字" }
+}

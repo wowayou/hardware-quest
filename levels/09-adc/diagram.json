@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "author": "hardware-quest",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": -100,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot",
+      "top": 136,
+      "left": 171.4,
+      "attrs": {
+        "value": "200"
+      },
+      "rotate": 180
+    }
+  ],
+  "connections": [
+    [
+      "pot:SIG",
+      "uno:A0",
+      "green",
+      []
+    ],
+    [
+      "uno:5V",
+      "pot:VCC",
+      "red",
+      [
+        "v32.5",
+        "h38"
+      ]
+    ],
+    [
+      "uno:GND.2",
+      "pot:GND",
+      "black",
+      [
+        "v20.5",
+        "h48.5"
+      ]
+    ]
+  ],
+  "serialMonitor": {
+    "display": "always",
+    "newline": "lf"
+  }
+}

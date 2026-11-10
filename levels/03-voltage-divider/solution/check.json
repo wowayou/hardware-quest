@@ -1,0 +1,9 @@
+{
+  "reads": {
+    "r2": { "element": "ResistorElm", "nth": 1, "what": "resistance", "scale": 0.001 },
+    "v": { "element": "ProbeElm", "what": "voltage" }
+  },
+  "answer": "r2",
+  "start": [{ "read": "v", "min": 4.4, "max": 4.6 }],
+  "solution": [{ "read": "v", "min": 2.99, "max": 3.01 }]
+}

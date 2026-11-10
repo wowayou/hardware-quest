@@ -1,0 +1,18 @@
+{
+  "settleMs": 500,
+  "steps": [
+    {
+      "wait": 2000
+    }
+  ],
+  "answer": {
+    "serial": "找到设备：0x3C\n找到设备：0x68\n找到设备：0x77\n扫描结束，共 3 个设备",
+    "timeoutMs": 10000
+  },
+  "starterAlso": [
+    {
+      "serial": "扫描结束，共 0 个设备",
+      "timeoutMs": 10000
+    }
+  ]
+}

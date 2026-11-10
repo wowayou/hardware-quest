@@ -1,0 +1,9 @@
+{
+  "id": "closed-loop",
+  "chapter": "basics",
+  "title": "不亮的台灯",
+  "concept": "闭合回路",
+  "card": "电流只在闭合的回路里流动。",
+  "lab": { "tool": "falstad", "files": ["circuit.txt"] },
+  "answer": { "type": "number", "value": 9.7, "tolerance": 0.5, "unit": "mA" }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "debounce",
+  "chapter": "mcu",
+  "title": "按一下，数了五下",
+  "concept": "机械抖动与软件消抖",
+  "card": "机械按钮在按下和松开的瞬间，触点会来回弹跳，信号乱跳很多下，这叫抖动。软件消抖：电平变化后，要它稳定一小段时间（比如 30 毫秒）才承认。",
+  "lab": {
+    "tool": "wokwi",
+    "files": [
+      "sketch.ino",
+      "diagram.json"
+    ]
+  },
+  "answer": {
+    "type": "text",
+    "accept": [
+      "TAPE"
+    ],
+    "format": "4 个大写字母"
+  }
+}

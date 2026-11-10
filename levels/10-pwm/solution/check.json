@@ -1,0 +1,24 @@
+{
+  "settleMs": 500,
+  "steps": [
+    {
+      "wait": 3000
+    }
+  ],
+  "answer": {
+    "serial": "口令：FADE",
+    "timeoutMs": 8000
+  },
+  "starterAlso": [
+    {
+      "serial": "没有脉冲",
+      "timeoutMs": 4000
+    }
+  ],
+  "solutionAlso": [
+    {
+      "serial": "占空比 2[2-8]\\.\\d",
+      "timeoutMs": 1000
+    }
+  ]
+}

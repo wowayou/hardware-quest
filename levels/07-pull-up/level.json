@@ -1,0 +1,21 @@
+{
+  "id": "pull-up",
+  "chapter": "mcu",
+  "title": "自己乱响的门铃",
+  "concept": "悬空输入与上拉电阻",
+  "card": "没接到任何东西的输入脚是悬空的，读数不可信。用 INPUT_PULLUP 打开内部的上拉电阻，把脚默认拉到 HIGH，按钮另一端接地，按下读到 LOW。",
+  "lab": {
+    "tool": "wokwi",
+    "files": [
+      "sketch.ino",
+      "diagram.json"
+    ]
+  },
+  "answer": {
+    "type": "text",
+    "accept": [
+      "7294"
+    ],
+    "format": "4 位数字"
+  }
+}

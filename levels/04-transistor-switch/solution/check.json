@@ -1,0 +1,7 @@
+{
+  "reads": { "i": { "element": "ResistorElm", "nth": 1, "what": "current", "scale": 1000 } },
+  "answer": "i",
+  "start": [{ "read": "i", "max": 0.001 }],
+  "solution": [{ "read": "i", "min": 90 }],
+  "also": [{ "file": "solution/switch-closed-only.txt", "assert": [{ "read": "i", "max": 1 }] }]
+}

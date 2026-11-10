@@ -1,0 +1,21 @@
+{
+  "id": "pwm",
+  "chapter": "mcu",
+  "title": "调光台灯",
+  "concept": "PWM 与占空比",
+  "card": "PWM（脉宽调制）用极快地开关来模拟中间亮度：一个周期里高电平占的比例叫占空比。analogWrite(255) 是 100%，只有带 ~ 的引脚才能输出 PWM。",
+  "lab": {
+    "tool": "wokwi",
+    "files": [
+      "sketch.ino",
+      "diagram.json"
+    ]
+  },
+  "answer": {
+    "type": "text",
+    "accept": [
+      "FADE"
+    ],
+    "format": "4 个大写字母"
+  }
+}

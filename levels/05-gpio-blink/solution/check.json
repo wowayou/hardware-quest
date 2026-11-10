@@ -1,0 +1,5 @@
+{
+  "settleMs": 500,
+  "steps": [],
+  "answer": { "blinks": { "led": "led1", "groups": [3, 1, 4, 2], "splitMs": 900, "cycleMs": 3000, "windowMs": 44000 } }
+}

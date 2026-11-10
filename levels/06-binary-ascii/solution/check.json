@@ -1,0 +1,27 @@
+{
+  "settleMs": 0,
+  "steps": [],
+  "answer": {
+    "frames": {
+      "leds": [
+        "b7",
+        "b6",
+        "b5",
+        "b4",
+        "b3",
+        "b2",
+        "b1",
+        "b0"
+      ],
+      "expect": [
+        "01000110",
+        "01010101",
+        "01010011",
+        "01000101"
+      ],
+      "minHoldMs": 1500,
+      "windowMs": 38000
+    }
+  },
+  "starterObservable": true
+}

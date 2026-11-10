@@ -1,0 +1,9 @@
+{
+  "id": "transistor-switch",
+  "chapter": "basics",
+  "title": "小手推大门",
+  "concept": "三极管当开关",
+  "card": "三极管用基极的小电流控制集电极到发射极的大电流。基极电阻选得合适，三极管就“全开”，像一个由小电流控制的开关。",
+  "lab": { "tool": "falstad", "files": ["circuit.txt"] },
+  "answer": { "type": "number", "value": 104.4, "tolerance": 5, "unit": "mA" }
+}

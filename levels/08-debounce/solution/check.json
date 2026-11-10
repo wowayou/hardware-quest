@@ -1,0 +1,30 @@
+{
+  "settleMs": 1500,
+  "steps": [
+    {
+      "wait": 500
+    },
+    {
+      "press": "btn",
+      "times": 4,
+      "holdMs": 150,
+      "gapMs": 700
+    }
+  ],
+  "answer": {
+    "serial": "口令：TAPE",
+    "timeoutMs": 9000
+  },
+  "starterAlso": [
+    {
+      "serial": "数错了：实际数到 \\d+ 次",
+      "timeoutMs": 6000
+    }
+  ],
+  "solutionAlso": [
+    {
+      "serialNot": "数错了",
+      "forMs": 500
+    }
+  ]
+}
