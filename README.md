@@ -2,6 +2,8 @@
 
 用解密闯关的方式学硬件。你是维修铺的夜班学徒，每晚修一件东西：网站负责讲故事、给实验文件、核对答案、记进度；仿真在外部网站做——CircuitJS 跑模拟电路，Wokwi 跑单片机。
 
+**在线玩：<https://wowayou.github.io/hardware-quest/>**（手机、电脑都可以；动手做实验建议用电脑）
+
 TypeScript + Vite 的纯静态站点，运行时依赖只有 `marked`（渲染关卡正文）和 `lz-string`（生成 CircuitJS 链接），不用框架。
 
 ## 运行
@@ -12,9 +14,7 @@ npm run dev        # 本地开发
 npm run check      # 类型检查 + 单元测试 + 构建（提交前必须过）
 ```
 
-`npm run build` 的产物在 `dist/`，是纯静态文件，放到任何静态托管（包括子路径）都能用。
-
-仓库里带了发布到 GitHub Pages 的流程（[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)：类型检查、单元测试、构建，通过后发布），目前只能手动触发，因为仓库是私有的；公开之后按该文件开头的说明打开自动发布。
+推送到 `main` 后，GitHub Actions（[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)）依次做类型检查、单元测试、构建，全部通过才发布到 GitHub Pages。`npm test` 里包含关卡格式校验，所以写坏的关卡发不出去。
 
 ## 怎么玩
 

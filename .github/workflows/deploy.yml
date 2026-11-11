@@ -1,11 +1,8 @@
 name: Deploy to GitHub Pages
 
-# 仓库还是私有的，免费套餐下私有仓库不能用 GitHub Pages，所以先只允许手动触发。
-# 公开仓库并在 Settings → Pages 里把 Source 设成 GitHub Actions 之后，
-# 把下面注释掉的 push 触发加回来，就恢复成"推送到 main 自动发布"。
 on:
-  # push:
-  #   branches: [main]
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
